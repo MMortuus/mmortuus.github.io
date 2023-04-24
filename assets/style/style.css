@@ -1,0 +1,539 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0 auto;
+    background: url(../img/psdd_03_06_2022_24.png) center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+/*! Container */
+
+.container
+{
+    width: 100%;
+    max-width: 1920px;
+}
+
+/*! Header */
+
+.header
+{
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(109, 127, 127));
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.header_nav_bar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.header_nav_bar ul li
+{
+    display: inline-block;
+    list-style: none;
+    max-width: fit-content;
+}
+
+.header_nav_bar ul:last-child
+{
+    padding-right: 40px;
+}
+
+
+.header_nav_bar a
+{
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    background-size: cover;
+    transition: all .3s linear;
+}
+
+.header_nav_bar a:hover
+{
+    color: #ffc726;
+}
+
+
+/*! Logo */
+
+.logo
+{
+    display: inline-block;
+    /* Добавляем это свойство */
+    max-width: 15%;
+    /* Удаляем max-width: 250px; */
+}
+
+.logo img
+{
+    padding: 10px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+/*! Main */
+
+.main_paige
+{
+    margin: 0px auto;
+    margin-top: 180px;
+    max-width: 1300px;
+    height: auto;
+    margin-bottom: 90px;
+
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(109, 127, 127));
+    color: #fff;
+    text-align: center;
+
+    border: 1px #000;
+    border-radius: 10px;
+}
+
+/*! Game */
+
+.game_blck
+{
+    width: 1300px;
+    /* padding: 15px; */
+}
+
+.game_blck_img
+{
+    /* padding: 10px; */
+    transition: all .2s linear;
+    margin-right: 15px;
+}
+
+.game_blck img
+{
+    transition: all .3s linear;
+}
+
+.game_blck a
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.game_blck a:hover
+{
+    color: #ffc726;
+}
+
+.game_blck img:hover
+{
+    box-shadow: 0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff;
+}
+
+.game_blck p
+{
+    max-width: 1088px;
+    /* padding: 10px; */
+}
+
+.game_description
+{
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    /* background: linear-gradient(186deg, rgba(109, 127, 127, 1) 0%, rgba(255, 201, 49, 1) 50%, rgba(109, 127, 127, 1) 100%); */
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(109, 127, 127));
+    padding-right: 10px;
+    border: 1px #000;
+    border-radius: 10px;
+    transition: all .3s linear, color .3s linear;
+}
+
+.game_description p
+{
+    margin: 0 auto;
+}
+
+.game_description:hover
+{
+    color: #ffc726;
+    border: 1px #fff;
+    box-shadow: 0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff;
+}
+
+.poster
+{
+    max-width: 100%;
+    max-height: 200px;
+    width: 170px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+
+/*! Game Content */
+
+.game_blck_page
+{
+    box-sizing: border-box;
+    width: 1300px;
+    padding: 15px;
+}
+
+.game_blck_page_img
+{
+    transition: all .2s linear;
+    margin-right: 15px;
+}
+
+.game_blck_page img
+{
+    transition: all .3s linear;
+}
+
+.game_blck_page a
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    /* padding: 15px; */
+    transition: all .3s linear;
+}
+
+/* .game_blck_page a:hover
+{
+    
+} */
+
+.game_blck_page img:hover
+{
+    box-shadow: 0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff;
+}
+
+.game_blck_page p
+{
+    max-width: 1088px;
+}
+
+/** Game Card Top */
+
+.game_card_top
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.game_card_first
+{
+    display: flex;
+    width: 50%;
+    max-width: 650px;
+    position: relative;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+
+    font-size: 13px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #fff;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(109, 127, 127));
+    border: 1px #000;
+    border-radius: 10px;
+}
+
+.game_card_first ul li
+{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.game_card_first a
+{
+    font-size: 13px;
+    margin: 0;
+}
+
+.game_card_first a:hover
+{
+    color: #ffc726;
+}
+
+.game_card_first h2
+{
+    font-size: 22px;
+    /* margin-right: -35px; */
+}
+
+.game_blck_img_page
+{
+    max-width: 200px;
+}
+
+.game_blck_img_page img
+{
+    max-height: fit-content;
+    width: 200px;
+    height: 250px;
+}
+
+.game_card_info
+{
+    margin-right: 25px;
+    max-width: fit-content;
+    margin-right: 10px;
+}
+
+.game_card_video
+{
+    height: 300px;
+    max-height: fit-content;
+}
+
+.overlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    display: none;
+}
+
+.overlay:hover
+{
+    cursor: zoom-out;
+}
+
+.img-zoom
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: all .5s ease-in-out;
+    z-index: 1000;
+    cursor: zoom-out;
+}
+
+.game_blck_img_page:hover
+{
+    cursor: zoom-in;
+}
+
+/** Game Description */
+
+.game_description_container
+{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.game_description_blck
+{
+    width: 820px;
+    padding: 10px;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(109, 127, 127));
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.game_description_full
+{
+    display: block;
+}
+
+.game_description_full h2
+{
+    margin: 5px;
+    width: 100%;
+    text-align: left;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.game_description_full p
+{
+    /* float: left; */
+    font-size:15px;
+    line-height: 1.4;
+    max-width: 92%;
+    margin: 0 auto;
+    text-align: left;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+/** Game Requirements  */
+
+.game_req_blck
+{
+    display: block;
+    width: 400px;
+    padding: 10px;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(109, 127, 127));
+    border-radius: 10px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.req
+{
+    display: block;
+    list-style: none;
+}
+
+.req ul
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+
+}
+
+.req ul li
+{
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    text-align: left;
+    font-size: 13px;
+}
+
+.req ul:last-child
+{
+    margin-bottom: 20px;
+}
+
+.req span
+{
+    margin: 10px 0 38px 0;
+    width: 100%;
+    text-align: left;
+    float: left;
+}
+
+/** Gallery */
+
+.gallery_container
+{
+    max-width: 100%;
+    max-height: fit-content;
+    display: block;
+
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(109, 127, 127));
+    border-radius: 10px;
+}
+
+.gallery
+{
+    padding: 10px;
+    padding-top: 0;
+}
+
+.gallery img
+{
+    border-radius: 10px;
+    width: 350px;
+    height: 250px;
+    margin: 0 5px 10px 5px;
+    transition: all .3s linear;
+}
+
+.gallery img:hover
+{
+    width: 450px;
+    height: 350px;
+}
+
+.gallery_label
+{
+    /* margin: 5px auto; */
+    display: flex;
+    justify-content: center;
+}
+
+.gallery_label h2
+{
+    margin: 10px auto;
+}
+
+/*! Footer */
+
+.footer
+{
+    background: #333;
+    color: #fff;
+    font-size: 70%;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a
+{
+    text-decoration: none;
+    color: #fff;
+    max-width: 100%;
+    margin: 20px auto;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 20px;
+    transition: all .3s;
+}
+
+.footer a:hover
+{
+    color: #ffc726;
+}
+
+.footer p
+{
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+}
